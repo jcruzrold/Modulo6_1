@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px none #ffffff;
+    box-sizing: border-box;
+    font-size: medium;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 32px;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.shopping_cart_container {
+    width: 20%;
+    margin: auto;
+}
+
+.shopping_cart_container > * {
+    width: 100%;
+}
+
+.shopping_cart_container ol li {
+    margin-bottom: 4px;
+    text-align: right;
+}
+
+.shopping_cart_container ol li div {
+    width: 83%;
+    margin-right: 16px;
+    display: inline;
+}
+
+.shopping_cart_container ol li input {
+    width:16%;
+    border: 1px solid #b8b8b8;
+}
+
+.calculate_button {
+    color: #ffffff;
+    background-color: #45a545;
+    padding: 8px;
+    margin: 16px 0px 0px 0px;
+    border: 1px solid #b8b8b8;
+    border-radius: 5px;
+}
+
+.calculate_button:active {
+    background-color: #327932;
+    position: relative;
+    top: 2px;
+}
+
+.calculate_button:disabled {
+    background-color: #682727;
+    position: unset;
+}
+
+.shopping_cart_purchase_amount div{
+    text-align: right;
+    font-weight: bold;
+}
+
+.shopping_cart_purchase_amount > div{
+    margin: 32px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.purchase_amount_text {
+    width: 65%;
+}
+
+.purchase_amount_text_greater *{
+    font-size: x-large;
+}
